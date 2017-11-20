@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" href="css/Titleist.css">
+    <title>Titleist</title>
+</head>
+<body>
+    <div class="head">
+        <img src="images/Titleist_head.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <img src="images/Titleist_goods1.jpg"  onclick="test(111)" alt="">
+        <img src="images/Titleist_goods2.jpg" onclick="test(137)" alt="">
+        <img src="images/Titleist_goods3.jpg" onclick="test(134)" alt="">
+        <img src="images/Titleist_goods4.jpg" onclick="test(133)" alt="">
+        <img src="images/Titleist_goods5.jpg" onclick="test(131)" alt="">
+        <img src="images/Titleist_goods6.jpg" onclick="test(119)" alt="">
+        <img src="images/Titleist_icon1.jpg" alt="">
+        <img src="images/Titleist_tohistory.jpg" onclick="window.history.go(-1)" alt="">
+    </div>
+    <div class="foot">
+        <img src="images/Titleist_foot.jpg" alt="">
+    </div>
+    <script>
+        function test(goodsid)
+        {
+            try{
+                pl.toDetail(goodsid);
+                console.log(goodsid)
+            }catch(e){
+            }
+            passValue(goodsid);
+
+        }
+    </script>
+</body>
+</html>

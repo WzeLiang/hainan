@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+body .head {
+  width: 100%;
+  font-size: 0;
+}
+body .head img {
+  width: 100%;
+}
+body .content {
+  width: 100%;
+  font-size: 0;
+}
+body .content img {
+  width: 100%;
+}
+body .goods-box {
+  padding: .2rem .35rem;
+  background: black;
+}
+body .goods-box img {
+  width: 2.7rem;
+}
+body .goods-box img:nth-child(1),
+body .goods-box img:nth-child(2) {
+  margin-bottom: .15rem;
+}
+body .goods-box img:nth-child(1),
+body .goods-box img:nth-child(3) {
+  margin-right: .15rem;
+}
+body .foot {
+  width: 100%;
+  font-size: 0;
+}
+body .foot img {
+  width: 100%;
+}

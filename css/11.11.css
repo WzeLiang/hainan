@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+body .head {
+  width: 100%;
+  font-size: 0;
+}
+body .head img {
+  width: 100%;
+}
+body .typebox {
+  margin: 0 .5rem .5rem.5rem;
+  font-size: 0;
+  background: url("../images/out_11.11typeback.jpg");
+  background-size: 100% 100%;
+  padding: .1rem;
+  border-radius: .1rem;
+}
+body .typebox .typeitem {
+  display: inline-block;
+  width: 1.65rem;
+  height: 1.65rem;
+  box-sizing: border-box;
+  padding: 0 .05rem;
+  line-height: 2rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: .1rem;
+}
+body .typebox .typeitem:nth-child(1),
+body .typebox .typeitem:nth-child(2),
+body .typebox .typeitem:nth-child(4),
+body .typebox .typeitem:nth-child(5),
+body .typebox .typeitem:nth-child(7),
+body .typebox .typeitem:nth-child(8) {
+  margin-right: .1rem;
+}
+body .typebox .typeitem:nth-child(1),
+body .typebox .typeitem:nth-child(2),
+body .typebox .typeitem:nth-child(3),
+body .typebox .typeitem:nth-child(4),
+body .typebox .typeitem:nth-child(5),
+body .typebox .typeitem:nth-child(6) {
+  margin-bottom: .1rem;
+}
+body .typebox .typeitem:nth-child(5) {
+  height: 2rem;
+  line-height: 2.35rem;
+  background: rgba(186, 203, 218, 0.6);
+  margin: .2rem .1rem .2rem 0;
+}
+body .typebox .typeitem a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+body .typebox .typeitem a img {
+  width: 100%;
+}
+body .content {
+  width: 100%;
+  font-size: 0;
+}
+body .content img {
+  width: 100%;
+}
+body .foot {
+  width: 100%;
+  font-size: 0;
+}
+body .foot img {
+  width: 100%;
+}

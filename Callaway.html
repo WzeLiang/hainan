@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" href="css/Callaway.css">
+    <title>Bridgestone</title>
+</head>
+<body>
+    <div class="head">
+        <img src="images/Callaway-head.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <img src="images/Callaway-goods1.jpg"  onclick="test(528)" alt="">
+
+    </div>
+    <div class="goods-box">
+        <img src="images/Callaway-goods2.jpg"  onclick="test(466)" alt="">
+        <img src="images/Callaway-goods3.jpg"  onclick="test(540)" alt="">
+    </div>
+    <div class="content">
+        <img src="images/Callaway-goods4.jpg"  onclick="test(545)" alt="">
+    </div>
+     <div class="goods-box goods-box2">
+            <img src="images/Callaway-goods5.jpg"  onclick="test(526)" alt="">
+            <img src="images/Callaway-goods6.jpg"  onclick="test(534)" alt="">
+     </div>
+     <div class="content">
+             <img src="images/Callaway-goods7.jpg"  onclick="test(538)" alt="">
+         </div>
+    <div class="foot">
+        <img src="images/Callaway-tohistory.jpg" onclick="window.history.go(-1)" alt="">
+        <img src="images/Callaway-foot.jpg" alt="">
+    </div>
+    <script>
+        function test(goodsid)
+        {
+            try{
+                pl.toDetail(goodsid);
+               // console.log(goodsid)
+            }catch(e){
+            }
+            passValue(goodsid);
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" href="css/Footjoy.css">
+    <title>Footjoy</title>
+</head>
+<body>
+    <div class="head">
+        <img src="images/Footjoy_head.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <img src="images/Footjoy_goods1.jpg"  onclick="test(392)" alt="">
+
+    </div>
+    <div class="goods-box">
+        <img src="images/Footjoy_goods2.jpg" onclick="test(355)" alt="">
+        <img src="images/Footjoy_goods3.jpg" onclick="test(462)" alt="">
+        <img src="images/Footjoy_goods4.jpg" onclick="test(379)" alt="">
+        <img src="images/Footjoy_goods5.jpg" onclick="test(378)" alt="">
+    </div>
+    <div class="content">
+            <img src="images/Footjoy_tohistory.jpg" onclick="window.history.go(-1)" alt="">
+
+        </div>
+    <div class="foot">
+        <img src="images/Footjoy_foot.jpg" alt="">
+    </div>
+    <script>
+        function test(goodsid)
+        {
+            try{
+                pl.toDetail(goodsid);
+                console.log(goodsid)
+            }catch(e){
+            }
+            passValue(goodsid);
+
+        }
+    </script>
+</body>
+</html>
